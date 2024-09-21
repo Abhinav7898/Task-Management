@@ -19,7 +19,7 @@ function App() {
       localStorage.setItem("userName",userName);
       localStorage.setItem("userId",userId);
       localStorage.setItem("userEmail",userEmail);
-
+      setIsLocalStorageNotEmpty(true);
     } 
     useEffect(() => {
       setIsLocalStorageNotEmpty(
