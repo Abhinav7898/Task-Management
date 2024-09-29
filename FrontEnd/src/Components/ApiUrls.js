@@ -1,0 +1,9 @@
+export const LoginApi = 'https://localhost:7296/api/Registration/api/Registration/ValidateUser';
+export const SignUpApi = 'https://localhost:7296/api/Registration/api/Registration/AddUser';
+export const GetTaskApi = 'https://localhost:7296/api/Tasks/api/Tasks/GetTask';
+export const GetTasksApi = 'https://localhost:7296/api/Tasks/api/Tasks/GetTasks';
+export const GetTasksHistApi = 'https://localhost:7296/api/Tasks/api/Tasks/GetTasksHistory';
+export const UpdateTasksHistApi = 'https://localhost:7296/api/Tasks/api/Tasks/UpdateTasks';
+export const DeleteTasksApi = 'https://localhost:7296/api/Tasks/api/Tasks/DeleteTasks';
+export const AddTasksApi = 'https://localhost:7296/api/Tasks/api/Tasks/AddTasks';
+export const FeedbackApi = 'https://localhost:7296/api/Feedback/api/Feedback/AddFeedback';
